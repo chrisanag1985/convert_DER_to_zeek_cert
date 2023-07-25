@@ -3,7 +3,7 @@ If you want to get rid  notices with `SSL certificate validation failed with (un
 
 ## Why this happens
 
-Zeek uses Mozilla's list with Root CA's, but some applications store the some Root CA's in their local datastore (e.g microsoft update, apple etc.). Hence Zeek cannot resolve properly the certificate.
+Zeek uses Mozilla's list with Root CA's, but some applications store some Root CA's in their local datastore (e.g microsoft update, apple etc.). Hence Zeek cannot resolve properly the certificate.
 
 ## Steps
 
