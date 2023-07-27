@@ -11,10 +11,9 @@ Zeek uses Mozilla's list with Root CA's, but some applications store some Root C
 
 You can run the bash script which search in the Certificate. 
 
-Then wil find the AIA URL and download the `crt` file. 
+Then will extract the `AIA URL` and download the `crt` file. 
 
-Finally the bash script will calls the Python script to convert to Zeek suitable format 
-for `SSL::root_certs`.
+Finally the bash script will execute the Python script and convert it to Zeek suitable format for `SSL::root_certs`.
 
 Example:
 ```
